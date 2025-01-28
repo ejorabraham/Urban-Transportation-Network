@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.eco-commute-incentives]
+path = 'contracts/eco-commute-incentives.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.shared-mobility-coordination]
 path = 'contracts/shared-mobility-coordination.clar'
 clarity_version = 2
